@@ -15,140 +15,25 @@
 <body>
     <!-- Cabeçalho -->
     <header class="header">
-        <div class="d-flex flex justify-content-between header_area">
-            <div class="p-2 logo">
-                <img src="imagens/logo.png" class="logo">
+        <div class="header_area">
+            <div class="logo">
+                <a href="#"><img src="imagens/logo.png" class="logo"></a>
             </div>
-            <div class="p-2 menu_area">
+            <div class="menu_area">
                 <ul class="nav justify-content-evenly">
                     <nav class="nav nav-pills flex-column flex-sm-row">
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Lançamentos</a>
                         <a class="flex-sm-fill text-sm-center nav-link" href="#">Em destaque</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliações</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevistas & Making-of</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#avaliacoes">Avaliações</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#entrevistas">Entrevistas & Making-of</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#novidades">Novidades</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="pesquisar.html">Pesquisar</a>
                     </nav>
                 </ul>
-            </div>
-            <div class="p-2 search_bar">
-                <form action="">
-                    <input type="search" placeholder="Pesquisar filme">
-                    <i class="fa fa-search"></i>
-                </form>
             </div>
         </div>
         </div>
     </header>
     <!-- Fim Cabeçalho -->
-
-    <!-- Carousel  -->
-    <div class="carousel-principal">
-        <h1>Lançamentos</h1>
-        <div class="row row-zuada">
-            <div class="col-12">
-                <div id="carouselExampleIndicators" class="carousel slide col-12" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-12 col-xl-7 lancamento-video1"><iframe class="lancamento-iframe"
-                                        width="854" height="480" src="https://www.youtube.com/embed/t1m7zl8H-kE"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe></div>
-                                <div class="col-12 col-xl-5">
-                                    <div class="texto-principal">
-                                        <h2>Space Jam: Um novo legado</h2>
-                                        <p><strong>Sinopse:</strong> Em Space Jam: Um Novo Legado, a inteligência
-                                            artificial, Al G (Dom Cheadle) sequestra o filho de Lebron James e envia o
-                                            lendário jogador dos Los Angeles Lakers para uma realidade paralela, onde
-                                            vivem apenas os personagens de desenho animado da Warner Bros. Para resgatar
-                                            o seu filho, ele precisará vencer uma partida épica de basquete contra
-                                            superversões digitais das maiores estrelas da história da NBA e da WNBA.
-                                            Para essa dura missão, King James terá a ajuda de Pernalonga, Patolino, Lola
-                                            Bunny, dentre outros personagens. </p>
-                                        <p class="diretor"><strong>Diretor:</strong> Malcolm D. Lee</p>
-                                        <p class="elenco"><strong>Elenco:</strong>
-                                        <p>LeBron James | Don Cheadle | Sonequa Martin-Green
-                                        </p>
-                                        <p><strong>Avaliação:</strong></p>
-                                        <i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"> </i><i
-                                                class="fas fa-star"> </i> </i><i class="far fa-star"> </i>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-12 col-xl-7 lancamento-video2"><iframe class="lancamento-iframe"
-                                        width="854" height="480" src="https://www.youtube.com/embed/DzfpyUB60YY"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
-                                </div>
-                                <div class="col-12 col-xl-5">
-                                    <div class="texto-principal">
-                                        <h2>Get Out</h2>
-                                        <p><strong>Sinopse:</strong> Chris (Daniel Kaluuya) é jovem negro que está
-                                            prestes a conhecer a família de sua namorada caucasiana Rose (Allison
-                                            Williams). A princípio, ele acredita que o comportamento excessivamente
-                                            amoroso por parte da família dela é uma tentativa de lidar com o
-                                            relacionamento de Rose com um rapaz negro, mas, com o tempo, Chris percebe
-                                            que a família esconde algo muito mais perturbador.</p>
-                                        <p><strong>Diretor:</strong> Jordan Peele</p>
-                                        <p><strong>Elenco:</strong>
-                                        <p>Daniel Kaluuya | Allison Williams | Catherine Keener
-                                        </p>
-                                        <p><strong>Avaliação:</strong></p>
-                                        <i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"> </i><i
-                                                class="fas fa-star"> </i> </i><i class="fas fa-star"> </i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-12 col-xl-7 lancamento-video3"><iframe class="lancamento-iframe"
-                                        width="854" height="480" src="https://www.youtube.com/embed/hfLkFZWFmLM"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
-                                </div>
-                                <div class="col-12 col-xl-5">
-                                    <div class="texto-principal">
-                                        <h2>Duna</h2>
-                                        <p><strong>Sinopse:</strong> Em um futuro distante, planetas são comandados por
-                                            casas nobres que fazem parte de um império feudal intergalático. Paul
-                                            Atreides (Timothée Chalamet) é um jovem homem cuja família toma controle do
-                                            planeta deserto Arrakis, também conhecido como Duna. Sendo a única fonte da
-                                            especiaria melange, a substância mais importante do cosmos, Arrakis se prova
-                                            ser um planeta nem um pouco fácil de governar.</p>
-                                        <p><strong>Diretor:</strong> Denis Villeneuve</p>
-                                        <p><strong>Elenco:</strong>
-                                        <p>Timothée Chalamet | Rebecca Ferguson | Oscar Isaac
-                                        </p>
-                                        <p><strong>Avaliação:</strong></p>
-                                        <i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"> </i><i
-                                                class="fas fa-star"> </i> </i><i class="far fa-star"> </i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fim Carousel  -->
 
     <!-- Em Destaque -->
     <section class="container">
@@ -199,7 +84,7 @@
 
     <!-- Avaliações -->
     <div class="container mt-5 mb-5">
-        <div class="titulo">
+        <div id="avaliacoes" class="titulo">
             <h1>Últimas avaliações</h1>
         </div>
         <div class="row g-2">
@@ -269,7 +154,7 @@
 
     <!-- Entrevistas e Making Of -->
     <div class="entrevistas-makingof">
-        <div class="container entrevistas">
+        <div id="entrevistas" class="container entrevistas">
             <h1>Entrevistas & Making Of</h1>
             <div class="row flex-container">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 entrevista1">
@@ -326,7 +211,7 @@
 
     <!-- Novidades -->
     <div class="container">
-        <h1 class="novidades">Novidades</h1>
+        <h1 id="novidades" class="novidades">Novidades</h1>
         <div class="row">
             <div class="col-lg-8">
                 <div class="row">

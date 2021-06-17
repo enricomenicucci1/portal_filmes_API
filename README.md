@@ -1,6 +1,6 @@
 # portal_filmes_API
-Trabalho feito para a matéria de Desenvolvimento de Interfaces Web na PUC Minas BH
-O site que você fará deve atender aos seguintes requisitos: 
+Trabalho feito para a matéria de Desenvolvimento de Interfaces Web na PUC Minas BH<br>
+O site que você fará deve atender aos seguintes requisitos: <br>
 
 • o site deve ser publicado em um ambiente da Internet (Repl.it, GitHub Pages, Heroku, Netlify ou outro a sua escolha);<br>
 • o site deverá ser responsivo permitindo a visualização em um celular de forma adequada;<br>

@@ -1,10 +1,10 @@
 # portal_filmes_API
-Trabalho feito para a matéria de Desenvolvimento de Interfaces Web na PUC Minas BH<br>
+Trabalho feito para a matéria de Desenvolvimento de Interfaces Web na PUC Minas BH<br><br>
 O site que você fará deve atender aos seguintes requisitos: <br>
 
 • o site deve ser publicado em um ambiente da Internet (Repl.it, GitHub Pages, Heroku, Netlify ou outro a sua escolha);<br>
 • o site deverá ser responsivo permitindo a visualização em um celular de forma adequada;<br>
-• o site deve ter uma Home-Page com a listagem dinâmica de itens obtidos via API The Movie DB à escolha do aluno que pode ser qualquer das alternativas como: (1) filmes populares, (2) filmes no cinema, (3) séries de TV ou outra listagem a ser projetada pelo aluno a partir da mesma API. Nessa página inicial, devem ser obedecidos os seguintes requisitos:
+• o site deve ter uma Home-Page com a listagem dinâmica de itens obtidos via API The Movie DB à escolha do aluno que pode ser qualquer das alternativas como: (1) filmes populares, (2) filmes no cinema, (3) séries de TV ou outra listagem a ser projetada pelo aluno a partir da mesma API. Nessa página inicial, devem ser obedecidos os seguintes requisitos:<br>
   • para cada item da listagem devem ser exibidos um mínimo de três (3) dados textuais obtidos por meio da API que descrevam sucintamente o referido item (Ex: título, data, descrição, categoria, etc)<br>
   • para cada item da listagem, deve ser exibida uma imagem ilustrativa do referido item<br>
   • para cada item da listagem, deve haver um link que leve o usuário para outra página com mais informações sobre o item, seja no próprio site criado pelo aluno ou em outro site na Internet.<br>

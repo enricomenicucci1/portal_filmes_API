@@ -8,7 +8,7 @@ function exibeFilme() {
     for (i = 0; i < dados.results.length; i++){
         let filme = dados.results[i];
         texto = texto + `
-            <img src="https://image.tmdb.org/t/p/w300/${filme.poster_path}" alt="">   
+        <a href="https://www.themoviedb.org/movie/${filme.id}"><img src="https://image.tmdb.org/t/p/w300/${filme.poster_path}" alt=""></a>  
         `;
     };
     
